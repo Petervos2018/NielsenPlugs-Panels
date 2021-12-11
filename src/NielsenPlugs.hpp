@@ -1,14 +1,8 @@
 //***********************************************************************************************
-//Impromptu Modular: Modules for VCV Rack by Marc Boulé
-//
-//Based on code from the Fundamental and AudibleInstruments plugins by Andrew Belt 
-//and graphics from the Component Library by Wes Milholen 
+//NielsenPlugs
+//Based on code from the Fundamental and AudibleInstruments plugins by Andrew Belt and Modules for VCV Rack by Marc Boulé
 //See ./LICENSE.md for all licenses
-//See ./res/fonts/ for font licenses
 //***********************************************************************************************
-
-// inkscape font sizes: 8 (small), 10.3 (normal) and 15.5 (title)
-
 
 #pragma once
 
@@ -17,18 +11,12 @@
 
 using namespace rack;
 
-
 extern Plugin *pluginInstance;
 
 extern Model *modelBlankPanel;
 
-
-
-
 // General constants
 static const NVGcolor displayColOn = nvgRGB(0xaf, 0xd2, 0x2c);
-
-
 
 // General objects
 
