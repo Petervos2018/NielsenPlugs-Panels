@@ -59,4 +59,4 @@ struct BlankPanelWidget : ModuleWidget {
 	}
 };
 
-Model *modelBlankPanel = createModel<BlankPanel, BlankPanelWidget>("XMas-Blank-Panel");
+Model *modelBlankPanel = createModel<BlankPanel, BlankPanelWidget>("XMas");
