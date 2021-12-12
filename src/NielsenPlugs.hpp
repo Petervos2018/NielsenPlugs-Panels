@@ -1,6 +1,6 @@
 //***********************************************************************************************
-//NielsenPlugs
-//Based on code from the Fundamental and AudibleInstruments plugins by Andrew Belt and Modules for VCV Rack by Marc Boulé
+//NielsenPlugs: Modules for VCV Rack by Jens Peter Nielsen
+//
 //See ./LICENSE.md for all licenses
 //***********************************************************************************************
 
