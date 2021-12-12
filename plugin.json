@@ -1,9 +1,9 @@
 {
-	"slug": "NielsenPlugs",
-	"name": "NielsenPlugs",
+	"slug": "NielsenPlugs-Panels",
+	"name": "NielsenPlugs Panels",
 	"version": "2.0.0",
 	"license": "GPL-3.0-or-later",
-	"author": "Jens Peter Nielsen",
+	"author": "jpnielsen",
 	"brand": "NielsenPlugs",
 	"authorEmail": "jpn9900@gmail.com",
 	"authorUrl": "",
@@ -14,9 +14,9 @@
 	"changelogUrl": "",
 	"modules": [
 		{
-			"slug": "XMas-Blank-Panel",
-			"name": "XMasBlankPanel",
-			"description": "Nielsen X-Mas blank panel",
+			"slug": "XMas",
+			"name": "XMas",
+			"description": "X-Mas panel",
 			"tags": ["Blank"]
 		}
 	]
