@@ -1,3 +1,3 @@
-# NielsenPlugs
+# NielsenPlugs-Panels
 
-XMas themed blank panel for VCV Rack 2
+XMas: X-Mas themed blank panel for VCV Rack 2
