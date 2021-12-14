@@ -1,5 +1,5 @@
 name: Build VCV Rack Plugin
-on: [workflow_dispatch]
+on: [push, pull_request, workflow_dispatch]
 
 env:
   rack-sdk-version: 2.0.3
