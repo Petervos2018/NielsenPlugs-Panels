@@ -85,14 +85,19 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          release_name: Computerscare Modules ${{ github.ref }}
           body: |
             ${{ env.GITHUB_REPOSITORY_NAME }} VCV Rack Plugin ${{ env.GITHUB_REF_NAME }}
+            Built against Rack SDK version:${{ env.rack-sdk-version }}
           draft: false
           prerelease: false
       - uses: actions/download-artifact@v2
         with:
           path: _artifacts
+      - name: Uggh Hugly
+        run: |
+          pwd
+          ls _artifacts
       - name: Upload release assets
         uses: svenstaro/upload-release-action@v2
         with:
@@ -100,3 +105,4 @@ jobs:
           file: _artifacts/**/*.vcvplugin
           tag: ${{ github.ref }}
           file_glob: true
+          
